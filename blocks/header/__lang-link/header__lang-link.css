@@ -1,0 +1,14 @@
+.header__lang-link {
+    max-width: 30px;
+    width: 100%;
+    margin-right: 18px;
+    font-family: Inter, Arial, 'sans-serif';
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    line-height: 1.75;
+}
+
+.header__lang-link:last-child {
+    margin-right: 0;
+}
