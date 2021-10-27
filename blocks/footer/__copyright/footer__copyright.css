@@ -1,11 +1,8 @@
-.lead__subtitle {
-    margin: 0 auto 64px;
+.footer__copyright {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 14px;
     line-height: 1.2;
     color: #fff;
-    text-align: center;
-    width: 50%;
 }
