@@ -8,6 +8,7 @@
     background-size: cover;
     width: 90%;
     margin: 0 auto;
+    position: relative;
 }
 
 @media screen and (max-width: 1024px) {

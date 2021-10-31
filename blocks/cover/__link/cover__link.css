@@ -2,21 +2,14 @@
     text-decoration: none;
     z-index: 2;
     margin: 0 auto 32px;
-    width: 45%;
-}
-
-@media screen and (max-width: 768px) {
-    .cover__link {
-        width: 66%;
-        max-height: 220px;
-    }
+    max-width: 560px;
+    width: 100%;
+    text-align: center;
 }
 
 @media screen and (max-width: 320px) {
     .cover__link {
-        width: 71%;
-        max-height: 100px;
+        width: 75%;
     }
 }
 
-    
