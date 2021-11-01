@@ -1,16 +1,9 @@
 .intro__item {
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 12px;
     line-height: 18px;
     color: #fff;
-    width: 80%;
     margin: 0 auto;
-}
-
-@media screen and (max-width: 768px) {
-    .intro__item {
-        width: 90%;
-    }
 }

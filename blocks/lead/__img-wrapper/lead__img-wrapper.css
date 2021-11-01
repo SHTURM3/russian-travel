@@ -1,0 +1,16 @@
+.lead__img-wrapper {
+    width: 77%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__img-wrapper {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__img-wrapper {
+        width: 100%;
+    }
+}

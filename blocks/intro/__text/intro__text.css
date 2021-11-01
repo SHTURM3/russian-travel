@@ -11,15 +11,15 @@
     margin: 0 auto 33px;
 }
 
+@media screen and (max-width: 1024px) {
+    .intro__text {
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .intro__text {
         width: 90%;
         padding-right: 0;
-    }
-}
-
-@media screen and (max-width: 530px) {
-    .intro__text {
-        font-size: 16px;
     }
 }
