@@ -6,20 +6,36 @@
     line-height: 163%;
     box-sizing: border-box;
     color: #fff;
-    width: 80%;
-    padding-right: 27%;
+    width: 77%;
+    padding-right: 23%;
     margin: 0 auto 33px;
 }
 
 @media screen and (max-width: 1024px) {
     .intro__text {
-        width: 90%;
+        max-width: 928px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro__text {
-        width: 90%;
         padding-right: 0;
+        max-width: 720px;
+        width: 100%;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .intro__text {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__text {
+        max-width: 288px;
+        width: 100%;
+    }
+}
+

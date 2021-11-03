@@ -9,12 +9,6 @@
     color: #fff;
 }
 
-.cover__link:hover {
-    transition: 0.5s linear;
-    background-color: #2a2c2f;
-    opacity: 0.8;
-}
-
 @media screen and (max-width: 1024px) {
     .cover__link {
         min-height: 640px;
@@ -27,7 +21,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
     .cover__link {
         min-height: 200px;
         width: 100%;

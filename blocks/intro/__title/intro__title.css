@@ -5,11 +5,25 @@
     font-size: 54px;
     line-height: 58px;
     color: #fff;
-    width: 80%;
+    width: 77%;
     margin: 0 auto 40px;
 }
 
 @media screen and (max-width: 1024px) {
+    .intro__title {
+        max-width: 928px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__title {
+        max-width: 720px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
     .intro__title {
         width: 90%;
     }
@@ -24,6 +38,8 @@
 
 @media screen and (max-width: 320px) {
     .intro__title {
+        max-width: 288px;
+        width: 100%;
         box-sizing: border-box;
         padding-right: 40px;
     }
