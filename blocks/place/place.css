@@ -15,10 +15,9 @@
 @media screen and (max-width: 1024px) {
     .place {
         max-width: 928px;
-        width: 100%;
         gap: 48px 32px;
         grid-template-columns: 440px 436px;
-        grid-template-rows: fit-content(152px) 439px;
+        grid-template-rows: fit-content(152px) 448px;
         margin-bottom: 73px;
     }
 }
@@ -29,7 +28,6 @@
         grid-template-rows: max-content min-content;
         gap: 48px 28px;
         max-width: 720px;
-        width: 100%;
         margin-bottom: 73px;
     }
 }
@@ -43,7 +41,6 @@
 @media screen and (max-width: 320px) {
     .place {
         gap: 32px;
-        grid-template-columns: 100%;
         grid-template-rows: 35px 46px 320px fit-content(545px);
         margin-bottom: 50px;
     }
