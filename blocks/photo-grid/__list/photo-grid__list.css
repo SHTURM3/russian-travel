@@ -35,7 +35,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .photo-grid__list {
         grid-template-rows: repeat(12, 216px);
         gap: 12px;

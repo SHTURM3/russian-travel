@@ -10,9 +10,3 @@
         width: 100%;
     }
 }
-
-@media screen and (max-width: 768px) {
-    .lead__img-wrapper {
-        width: 100%;
-    }
-}
