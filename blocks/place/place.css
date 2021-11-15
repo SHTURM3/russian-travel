@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 930px) {
     .place {
         grid-template-columns: 340px 352px;
         grid-template-rows: max-content min-content;
@@ -32,7 +32,7 @@
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
     .place {
         grid-template-columns: 100%;
     }
