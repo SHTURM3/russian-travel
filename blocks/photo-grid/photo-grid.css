@@ -8,13 +8,6 @@
     }
 }
 
-@media screen and (max-width: 720px) {
-    .photo-grid {
-        width: 90%;
-        margin: 0 auto;
-    }
-}
-
 @media screen and (max-width: 420px) {
     .photo-grid {
         padding-bottom: 64px;

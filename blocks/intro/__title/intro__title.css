@@ -22,12 +22,6 @@
     }
 }
 
-@media screen and (max-width: 720px) {
-    .intro__title {
-        width: 90%;
-    }
-}
-
 @media screen and (max-width: 530px) {
     .intro__title {
         font-size: 32px;

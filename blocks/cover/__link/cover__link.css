@@ -17,9 +17,10 @@
     width: 100%;
     height: 100%;
     background-color: rgba(42, 44, 47, 0.3);
+    z-index: 2;
 }
 
-.cover__link:hover {
+.cover__link:hover:before {
     transition: 0.5s linear;
     background-color: rgba(42, 44, 47, 0.8);
 }
